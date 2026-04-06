@@ -1215,7 +1215,7 @@ const SMOOTH = {
   },
 };
 
-// THE PINCH
+// THE PINCH - Selling Hope Buying Time
 
 const PINCH_MIDDAY_MAURADERS = {
   ...colorsSafari,
@@ -1227,6 +1227,246 @@ const PINCH_MIDDAY_MAURADERS = {
   songName: "Midday Mauraders",
   songArtist: "THE PINCH",
   songDurationInSeconds: 180 + 38,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_STAY_FREE = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/2_The Pinch_Stay Free_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Stay Free",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 180 + 14,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_SELLING_HOPE_BUYING_TIME = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/3_The Pinch_Selling Hope Buying Time_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Stay Free",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 240 + 22,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_BRAINDEAD = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/4_The Pinch_Braindead_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Braindead",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 180 + 26,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_THE_TRUTH = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/5_The Pinch_The Truth_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "The Truth",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 240 + 18,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_TRAVELLING = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/6_The Pinch_Travelling_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Travelling",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 180 + 42,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_MILLION_DOLLAR_SMILE = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/7_The Pinch_featuring Hinni_Million Dollar Smile_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Million Dollar Smile (feat. Hinni)",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 240 + 15,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_SAUSAGE_EGGS_AND_BAKED_BEANS = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/8_The Pinch_Sausage, Eggs and Baked Beans_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Sausage, Eggs and Baked Beans",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 180 + 58,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_DIVINE = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/9_The Pinch_Divine_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Divine",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 60 + 1,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_INFERNO = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/10_The Pinch_Inferno_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Inferno",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 180 + 44,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_MANS_WORLD = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/11_The Pinch_Man's World_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Man's World",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 240 + 22,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_ABOVE_IT_ALL = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/12_The Pinch_Above It All_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Above It All",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 240 + 29,
+  songNr: "Selling Hope Buying Time",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const PINCH_CYCLONES = {
+  ...colorsSafari,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/13_The Pinch_featuring Mellie Meteors_Cyclones_24bit_48khz.wav",
+  coverImageUrl:
+    "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
+  songName: "Cyclones (feat. Mellie Meteors)",
+  songArtist: "THE PINCH",
+  songDurationInSeconds: 180 + 54,
   songNr: "Selling Hope Buying Time",
   visualizer: {
     type: "spectrum" as const,
@@ -1297,21 +1537,33 @@ void SMOOTH;
 
 // album: the pinch
 void PINCH_MIDDAY_MAURADERS;
+void PINCH_STAY_FREE;
+void PINCH_SELLING_HOPE_BUYING_TIME;
+void PINCH_BRAINDEAD;
+void PINCH_THE_TRUTH;
+void PINCH_TRAVELLING;
+void PINCH_MILLION_DOLLAR_SMILE;
+void PINCH_SAUSAGE_EGGS_AND_BAKED_BEANS;
+void PINCH_DIVINE;
+void PINCH_INFERNO;
+void PINCH_MANS_WORLD;
+void PINCH_ABOVE_IT_ALL;
+void PINCH_CYCLONES;
 
 const renders: any[] = [
   // *********************
   // album 1: Ritorno al Futuro
   // *********************
-  IL_PARCO_DELLA_LUNA,
-  FRANZISKA,
-  NANCY,
-  ANGIOLINA,
-  UN_PAZZO_COME_ME,
-  GLAUB_ICH_BIN_VERLIEBT,
-  BEPPE,
-  L_ANIMA,
-  ALI_DI_CERA,
-  THE_FUTURE,
+  // IL_PARCO_DELLA_LUNA,
+  // FRANZISKA,
+  // NANCY,
+  // ANGIOLINA,
+  // UN_PAZZO_COME_ME,
+  // GLAUB_ICH_BIN_VERLIEBT,
+  // BEPPE,
+  // L_ANIMA,
+  // ALI_DI_CERA,
+  // THE_FUTURE,
 
   // *********************
   // album 2: second thoughts
@@ -1370,7 +1622,19 @@ const renders: any[] = [
   // *********************
   // THE PINCH
   // *********************
-  // PINCH_MIDDAY_MAURADERS,
+  PINCH_MIDDAY_MAURADERS,
+  PINCH_STAY_FREE,
+  PINCH_SELLING_HOPE_BUYING_TIME,
+  PINCH_BRAINDEAD,
+  PINCH_THE_TRUTH,
+  PINCH_TRAVELLING,
+  PINCH_MILLION_DOLLAR_SMILE,
+  PINCH_SAUSAGE_EGGS_AND_BAKED_BEANS,
+  PINCH_DIVINE,
+  PINCH_INFERNO,
+  PINCH_MANS_WORLD,
+  PINCH_ABOVE_IT_ALL,
+  PINCH_CYCLONES,
 ];
 
 async function runRender({ outputFile, props }: RenderJob) {
