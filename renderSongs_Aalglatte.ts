@@ -51,71 +51,14 @@ export const getColorTheme = ({
   return colorTheme;
 };
 
-// const ACCENT_COLOR = "#FF0092";
-// const BACKGROUND_COLOR = "#000000";
-// const FOREGROUND_COLOR = "#ffffff";
-
-// ALBUM NAME
-// const ALBUM_NAME_COLOR = chroma(ACCENT_COLOR).alpha(0.37).css();
-
-// SONG
-// const SONG_NAME_COLOR = chroma(FOREGROUND_COLOR).alpha(1).css();
-// const SONG_AUTHOR_COLOR = chroma(ACCENT_COLOR).alpha(0.7).css();
-// const SONG_DURATION_COLOR = ACCENT_COLOR;
-
-// const ACTIVE_SONG_SONG_NAME_COLOR = chroma(ACCENT_COLOR)
-//   .mix(BACKGROUND_COLOR, 0.9)
-//   .hex();
-
-// const ACTIVE_SONG_SONG_AUTHOR_COLOR = chroma(ACCENT_COLOR)
-//   .mix(BACKGROUND_COLOR, 0.7)
-//   .hex();
-
-// const ACTIVE_SONG_SONG_DURATION_COLOR = chroma(ACCENT_COLOR)
-//   .mix(BACKGROUND_COLOR, 0.7)
-//   .hex();
-
-// const ALBUM_BOX_SHADOW_COLOR = chroma(ACCENT_COLOR).alpha(0.22).css();
-
-// export const COLOR_THEME = getColorTheme({
-//   accent: ACCENT_COLOR,
-//   background: BACKGROUND_COLOR,
-//   songName: SONG_NAME_COLOR,
-//   authorName: SONG_AUTHOR_COLOR,
-//   duration: SONG_DURATION_COLOR,
-//   activeSongName: ACTIVE_SONG_SONG_NAME_COLOR,
-//   activeSongAuthor: ACTIVE_SONG_SONG_AUTHOR_COLOR,
-//   activeSongDuration: ACTIVE_SONG_SONG_DURATION_COLOR,
-//   albumShadow: ALBUM_BOX_SHADOW_COLOR,
-//   albumNameColor: ALBUM_NAME_COLOR,
-//   waveColor: ACCENT_COLOR,
-// });
-
 type RenderJob = {
   outputFile: string;
   props: any;
 };
 
-// type RenderJob = {
-//   outputFile: string;
-//   props: WideSingleSongCompositionSchemaType;
-// };
-
-// const colors = {
-//   backgroundColor: COLOR_THEME.background,
-//   progressBarBackgroundColor: COLOR_THEME.progressBar.background,
-//   progressBarColor: COLOR_THEME.progressBar.color,
-//   shadowColor: COLOR_THEME.albumShadow,
-//   waveColor: COLOR_THEME.accent,
-//   artistColor: COLOR_THEME.song.author,
-//   songNameColor: COLOR_THEME.song.name,
-//   durationColor: COLOR_THEME.song.duration,
-// };
-
 // ************************************************************************
 // album 01: RITORNO AL FUTURO colors
 // ************************************************************************
-
 const RITORNO_AL_FUTURO_ACCENT_COLOR = "#FF0092";
 const RITORNO_AL_FUTURO_BACKGROUND_COLOR = "#000000";
 const RITORNO_AL_FUTURO_FOREGROUND_COLOR = "#ffffff";
@@ -391,11 +334,174 @@ const colorsSafari = {
 const IL_PARCO_DELLA_LUNA = {
   ...colorsRitornoAlFuturo,
   audioOffsetInSeconds: 0,
-  audioFileUrl: "aalglatte/album-01/xxxxxx",
+  audioFileUrl: "aalglatte/album-01/il parco della luna_1.mp3",
   coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
   songName: "Il parco della luna",
   songArtist: "AAL G. LATTE",
   songDurationInSeconds: 120 + 35,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const FRANZISKA = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/251031 franziska 2.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Franziska",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 120 + 8,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const NANCY = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/nancy.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Nancy",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 120 + 26,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const ANGIOLINA = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/angiolina.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Angiolina",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 60 + 29,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const UN_PAZZO_COME_ME = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/un pazzo come me.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Un pazzo come me",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 120 + 11,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const GLAUB_ICH_BIN_VERLIEBT = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "aalglatte/album-01/251025 glaub ich bin verliebt - 25_10_2025, 21.22.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Glaub ich bin verliebt",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 60 + 57,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const BEPPE = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/251012 beppe - 12_10_2025, 18.03.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Beppe",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 60 + 29,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const L_ANIMA = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/251012 l'anima - 12_10_2025, 21.56.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "L'anima",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 120 + 16,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const ALI_DI_CERA = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/251015 ali di cera - 16_10_2025, 13.07.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "Ali di cera",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 120 + 0,
+  songNr: "RITORNO AL FUTURO",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
+
+const THE_FUTURE = {
+  ...colorsRitornoAlFuturo,
+  audioOffsetInSeconds: 0,
+  audioFileUrl: "aalglatte/album-01/the future (cohen) 01_4.mp3",
+  coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+  songName: "The future",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 120 + 56,
   songNr: "RITORNO AL FUTURO",
   visualizer: {
     type: "spectrum" as const,
@@ -1133,6 +1239,15 @@ const PINCH_MIDDAY_MAURADERS = {
 
 // album 1: ritorno al futuro
 void IL_PARCO_DELLA_LUNA;
+void FRANZISKA;
+void NANCY;
+void ANGIOLINA;
+void UN_PAZZO_COME_ME;
+void GLAUB_ICH_BIN_VERLIEBT;
+void BEPPE;
+void L_ANIMA;
+void ALI_DI_CERA;
+void THE_FUTURE;
 
 // album 2: second thoughts
 void ICH_HOER_MUSIK_WENN_ICH_DICH_SEH;
@@ -1188,6 +1303,15 @@ const renders: any[] = [
   // album 1: Ritorno al Futuro
   // *********************
   IL_PARCO_DELLA_LUNA,
+  FRANZISKA,
+  NANCY,
+  ANGIOLINA,
+  UN_PAZZO_COME_ME,
+  GLAUB_ICH_BIN_VERLIEBT,
+  BEPPE,
+  L_ANIMA,
+  ALI_DI_CERA,
+  THE_FUTURE,
 
   // *********************
   // album 2: second thoughts
