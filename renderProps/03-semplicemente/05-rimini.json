@@ -1,0 +1,16 @@
+{
+  "audioOffsetInSeconds": 0,
+  "audioFileUrl": "03-semplicemente/05-rimini.mp3",
+  "coverImageUrl": "03-semplicemente/semplicemente album@2x.png",
+  "albumName": "05. Rimini",
+  "artistName": "AAL G. LATTE | Semplicemente.",
+  "releaseDate": "-----",
+  "activeIndex": 4,
+  "visualizer": {
+    "type": "spectrum",
+    "bassOverlay": true,
+    "linesToDisplay": 55,
+    "mirrorWave": false,
+    "numberOfSamples": "512"
+  }
+}
