@@ -1264,7 +1264,7 @@ const PINCH_SELLING_HOPE_BUYING_TIME = {
     "the-pinch/The Pinch - Selling Hope Buying Time/3_The Pinch_Selling Hope Buying Time_24bit_48khz.wav",
   coverImageUrl:
     "the-pinch/The Pinch - Selling Hope Buying Time/selling_hope_ep_cover_bop_01_2800px.jpg",
-  songName: "Stay Free",
+  songName: "Selling Hope Buying Time",
   songArtist: "THE PINCH",
   songDurationInSeconds: 240 + 22,
   songNr: "Selling Hope Buying Time",
@@ -1622,19 +1622,19 @@ const renders: any[] = [
   // *********************
   // THE PINCH
   // *********************
-  PINCH_MIDDAY_MAURADERS,
+  // PINCH_MIDDAY_MAURADERS,
   PINCH_STAY_FREE,
   PINCH_SELLING_HOPE_BUYING_TIME,
-  PINCH_BRAINDEAD,
-  PINCH_THE_TRUTH,
-  PINCH_TRAVELLING,
-  PINCH_MILLION_DOLLAR_SMILE,
-  PINCH_SAUSAGE_EGGS_AND_BAKED_BEANS,
-  PINCH_DIVINE,
-  PINCH_INFERNO,
-  PINCH_MANS_WORLD,
-  PINCH_ABOVE_IT_ALL,
-  PINCH_CYCLONES,
+  // PINCH_BRAINDEAD, //
+  // PINCH_THE_TRUTH, //
+  // PINCH_TRAVELLING, //
+  // PINCH_MILLION_DOLLAR_SMILE, //
+  // PINCH_SAUSAGE_EGGS_AND_BAKED_BEANS, //
+  // PINCH_DIVINE, //
+  // PINCH_INFERNO, //
+  // PINCH_MANS_WORLD, //
+  // PINCH_ABOVE_IT_ALL, //
+  // PINCH_CYCLONES, //
 ];
 
 async function runRender({ outputFile, props }: RenderJob) {
