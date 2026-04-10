@@ -328,6 +328,72 @@ const colorsSafari = {
 };
 
 // ************************************************************************
+// album 06: STRICTLY BB colors
+// ************************************************************************
+const STRICTLY_BB_ACCENT_COLOR = "#FEFCAF";
+const STRICTLY_BB_BACKGROUND_COLOR = "#020100";
+
+// ALBUM NAME
+const STRICTLY_BB_ALBUM_NAME_COLOR = chroma(STRICTLY_BB_ACCENT_COLOR)
+  .alpha(0.45)
+  .css();
+
+// SONG
+const STRICTLY_BB_SONG_NAME_COLOR = chroma(STRICTLY_BB_ACCENT_COLOR)
+  .alpha(1)
+  .css();
+const STRICTLY_BB_SONG_AUTHOR_COLOR = chroma(STRICTLY_BB_ACCENT_COLOR)
+  .alpha(0.7)
+  .css();
+const STRICTLY_BB_SONG_DURATION_COLOR = STRICTLY_BB_ACCENT_COLOR;
+
+const STRICTLY_BB_ACTIVE_SONG_SONG_NAME_COLOR = chroma(STRICTLY_BB_ACCENT_COLOR)
+  .mix(STRICTLY_BB_BACKGROUND_COLOR, 0.9)
+  .hex();
+
+const STRICTLY_BB_ACTIVE_SONG_SONG_AUTHOR_COLOR = chroma(
+  STRICTLY_BB_ACCENT_COLOR,
+)
+  .mix(STRICTLY_BB_BACKGROUND_COLOR, 0.7)
+  .hex();
+
+const STRICTLY_BB_ACTIVE_SONG_SONG_DURATION_COLOR = chroma(
+  STRICTLY_BB_ACCENT_COLOR,
+)
+  .mix(STRICTLY_BB_BACKGROUND_COLOR, 0.7)
+  .hex();
+
+const STRICTLY_BB_ALBUM_BOX_SHADOW_COLOR = chroma(STRICTLY_BB_ACCENT_COLOR)
+  .alpha(0.22)
+  .css();
+
+export const STRICTLY_BB_COLOR_THEME = getColorTheme({
+  accent: STRICTLY_BB_ACCENT_COLOR,
+  background: STRICTLY_BB_BACKGROUND_COLOR,
+  songName: STRICTLY_BB_SONG_NAME_COLOR,
+  authorName: STRICTLY_BB_SONG_AUTHOR_COLOR,
+  duration: STRICTLY_BB_SONG_DURATION_COLOR,
+  activeSongName: STRICTLY_BB_ACTIVE_SONG_SONG_NAME_COLOR,
+  activeSongAuthor: STRICTLY_BB_ACTIVE_SONG_SONG_AUTHOR_COLOR,
+  activeSongDuration: STRICTLY_BB_ACTIVE_SONG_SONG_DURATION_COLOR,
+  albumShadow: STRICTLY_BB_ALBUM_BOX_SHADOW_COLOR,
+  albumNameColor: STRICTLY_BB_ALBUM_NAME_COLOR,
+  waveColor: STRICTLY_BB_ACCENT_COLOR,
+});
+
+const colorsStrictlyBb = {
+  backgroundColor: SAFARI_COLOR_THEME.background,
+  progressBarBackgroundColor: SAFARI_COLOR_THEME.progressBar.background,
+  progressBarColor: SAFARI_COLOR_THEME.progressBar.color,
+  shadowColor: SAFARI_COLOR_THEME.albumShadow,
+  waveColor: SAFARI_COLOR_THEME.accent,
+  artistColor: SAFARI_COLOR_THEME.song.author,
+  albumNameColor: SAFARI_COLOR_THEME.albumNameColor,
+  songNameColor: SAFARI_COLOR_THEME.song.name,
+  durationColor: SAFARI_COLOR_THEME.song.duration,
+};
+
+// ************************************************************************
 // album 01: ritorno al futuro
 // ************************************************************************
 
@@ -1215,8 +1281,31 @@ const SMOOTH = {
   },
 };
 
-// THE PINCH - Selling Hope Buying Time
+// ************************************************************************
+// album 05: aalglatt
+// ************************************************************************
+const ES_WAR_JEIL = {
+  ...colorsStrictlyBb,
+  audioOffsetInSeconds: 0,
+  audioFileUrl:
+    "aalglatte/album-06-strictly-Bb/es-war-jeil 2026-04-10 1542.wav",
+  coverImageUrl: "aalglatte/album-06-strictly-Bb/SIMPLY Bb Album.jpg",
+  songName: "Es war jeil",
+  songArtist: "AAL G. LATTE",
+  songDurationInSeconds: 300 + 10,
+  songNr: "STRICTLY Bb",
+  visualizer: {
+    type: "spectrum" as const,
+    bassOverlay: true,
+    linesToDisplay: 40,
+    mirrorWave: false,
+    numberOfSamples: "1024" as const,
+  },
+};
 
+// ************************************************************************
+// THE PINCH - Selling Hope Buying Time
+// ************************************************************************
 const PINCH_MIDDAY_MAURADERS = {
   ...colorsSafari,
   audioOffsetInSeconds: 0,
@@ -1535,6 +1624,9 @@ void COME_SEI;
 void MELODIE;
 void SMOOTH;
 
+// album 5: strictly Bb
+void ES_WAR_JEIL;
+
 // album: the pinch
 void PINCH_MIDDAY_MAURADERS;
 void PINCH_STAY_FREE;
@@ -1620,11 +1712,16 @@ const renders: any[] = [
   // SMOOTH,
 
   // *********************
+  // album 6: strictly Bb
+  // *********************
+  ES_WAR_JEIL,
+
+  // *********************
   // THE PINCH
   // *********************
   // PINCH_MIDDAY_MAURADERS,
-  PINCH_STAY_FREE,
-  PINCH_SELLING_HOPE_BUYING_TIME,
+  // PINCH_STAY_FREE,
+  // PINCH_SELLING_HOPE_BUYING_TIME,
   // PINCH_BRAINDEAD, //
   // PINCH_THE_TRUTH, //
   // PINCH_TRAVELLING, //

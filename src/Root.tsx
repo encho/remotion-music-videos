@@ -8,7 +8,8 @@ import {
 } from "./helpers/schema";
 import { ALL_FORMATS, Input, UrlSource } from "mediabunny";
 import { WideSingleSong } from "./Wide_Single_Song/Main";
-import { COLOR_THEME } from "./helpers/colorThemeRitornoAlFuturo";
+import { COLOR_THEME } from "./helpers/colorThemeStrictlyBb";
+// import { COLOR_THEME } from "./helpers/colorThemeRitornoAlFuturo";
 // import { COLOR_THEME } from "./helpers/colorThemeSafari";
 // import { COLOR_THEME } from "./helpers/colorThemeSemplicemente";
 // import { COLOR_THEME } from "./helpers/colorThemeSecondThoughts";
@@ -97,7 +98,9 @@ export const RemotionRoot: React.FC = () => {
 
           audioFileUrl:
             "aalglatte/album-01/251012 beppe - 12_10_2025, 18.03.mp3",
-          coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+          // coverImageUrl: "aalglatte/album-01/ritorno al futuro album@2x.png",
+
+          coverImageUrl: "aalglatte/album-06-strictly-Bb/SIMPLY Bb Album.jpg",
           // coverImageUrl: "aalglatte/album-02/second thoughts album@2x.png",
           // coverImageUrl: "aalglatte/album-05/AALGLATT Album.jpg",
 
